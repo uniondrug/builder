@@ -1,0 +1,19 @@
+{
+    "name" : "uniondrug/builder",
+    "description" : "builder php package PHAR with swoole mode",
+    "license" : "MIT",
+    "type" : "library",
+    "authors" : [
+        {
+            "name" : "Uniondrug Dev Team",
+            "email" : "dev@uniondrug.cn"
+        }
+    ],
+    "require" : {
+    },
+    "autoload" : {
+        "psr-4" : {
+            "Uniondrug\\Builder\\" : "src/"
+        }
+    }
+}
